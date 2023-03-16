@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#1788cc">
+     <meta property="og:title" content="Welltag | Portfolio">
+     <meta property="og:description" content="Je suis un jeune développeur Web !">
+     <meta property="og:image" content="https://cdn.discordapp.com/avatars/967870424178368522/a871ae3b4564b7fc4885073f89aadca5.webp">
+     
+     <meta name="keywords" content="dev, welltag, développeur, web">
+     <link rel="icon" href="./img/welltag.png"> 
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+  <title>Welltag | portfolio</title>
+      
+     
+</head>
+<body>
+  <section id="s1">
+
+    <div class="prst" >
+
+      <img src="https://cdn.discordapp.com/avatars/967870424178368522/a871ae3b4564b7fc4885073f89aadca5.webp" alt="Photo De Profil" width="200px" height="200px">
+      <h1 class="welltag">Welltag</h1>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      
+      <div class="text-box"><h1><span class="auto-input"></span></h1>
+        <script>
+          let typed = new Typed(".auto-input", {
+            strings: ["Développeur", "Web", "Frontend", "Passionné",],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+          })
+        </script>
+      </div>
+      
+      <br>    
+      <a href="#contact" id="contactButton">Me Contacter</a>
+    </div>
+
+    
+    <div class="ap" >
+      <h1>💫 | À Propos</h1>
+      <p>Je m'appelle <a class="spoiler" onclick="toggleSpoiler('sp1')" id="sp1">Raphaël</a>, j'ai actuellement 16 ans. <br>
+      Et je suis passionné d'informatique depuis mon enfance. Mais sa fait que depuis début 2019 que je me suis plonger dans le développement. <br>
+      J'ai commencé à coder des bots sur <a href ="https://discord.com">Discord</a> une application de messagerie. 
+      <br> puis en 2021, j'ai commencé à découvrir le développement <a class="spoiler" onclick="toggleSpoiler('sp2')" id="sp2">Web</a>, au début je me concentre sur les bots discord plus que sur le Web mais actuellement j'ai une petit préférence sur le développement Web. ^^</p>
+    </div>
+   
+    <div class="container">
+
+      <h1 class="my-skills">🗻 | Mes Compétences</h1>
+      <div class="bar-1">
+        <h4>HTML</h4>
+        <div class="bar" >
+          <div class="bar-inner" id="barInnerHtml" "></div>
+        </div>
+        <p class="skillPercent" id="SkillHTML">85%</p>
+      </div>
+      
+      <div class="bar-1">
+        <h4>CSS</h4>
+        <div class="bar" >
+          <div class="bar-inner" id="barInnerCss" "></div>
+        </div>
+        <p class="skillPercent" id="SkillCSS">80%</p>
+      </div>
+
+      <div class="bar-1">
+        <h4>Js</h4>
+        <div class="bar" >
+          <div class="bar-inner" id="barInnerJs" "></div>
+        </div>
+        <p class="skillPercent" id="SkillJS">50%</p>
+      </div>
+     
+    </div>
+
+
+
+   <div class="projet">
+     <h1>☃️ | Projets</h1>
+     <p>Voici mes différents projets.</p>
+     <br>
+
+    <div id="projectlist">
+
+      <figure class="projets hover">  <!--Pi-Heberg-->
+        <img src="./img/blanc.png">
+        <figcaption>
+          <img src="./img/Logo_pi.png" alt="Logo Pi" class="profile" />
+          <h2>Pi-Heberg<span>Support & CM</span></h2>
+          <p>Pi-Heberg est un hébergement Web, gaming, vps à bas prix voir gratuit !</p>
+          <a href="https://pi-heberg.fr" class="info">Site Web</a>
+        </figcaption>
+      </figure>
+  
+      <figure class="projets"> <!--CMFR-->
+        <img src="./img/Banniere_CMFr.png" alt="Bannière CMFr" />
+        <figcaption>
+          <img src="./img/Logo_CMFr.gif" alt="Logo CMFr" class="profile" />
+          <h2>Communauté Minecraft Fr<span>Community Manager</span></h2>
+          <p>Communauté Minecraft Fr est la 3ème plus grande communauté qui retransmet les nouveautés et les événements et en organise !</p>
+          <a href="https://discord.gg/nAfqRppcsT" class="info">Serveur Discord</a>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+
+
+   <div class="contact" id="contact">
+     <h1>🍕 | Me Contacter</h1>
+     <div class="contacts">
+
+      <a href="https://discord.com/users/967870424178368522"><div class="constactItemDiv">
+        <img src="./img/discord.png" alt="Discord">
+        <p>Discord (Recommandé) </p>
+      </div></a>
+
+      <a href="https://github.com/welltag2"><div class="constactItemDiv">
+        <img src="./img/github.png"><p>Github</p></div>
+      </a>
+
+      <a href="mailto:Welltagytb@gmail.com"><div class="constactItemDiv">
+        <img src="./img/mail.png"><p>Mail</p></div>
+      </a>
+     </div>
+   </div>
+
+   
+   <footer>
+     <center>
+       <p>Crée avec ❤️ par Welltag</p>
+       <br>
+       <p>Icon : <a href="https://Icon8.fr">Icon8</a></p>
+       <p>Musique : <a href="https://youtu.be/oOGa-bxPloA">Last Summer - Ikson</a> </p>
+     </center>
+   </footer>
+      <audio id="sound">
+    <source src="./musique/musique.mp3" type="audio/mpeg">
+    </audio>
+   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./js/index.js"></script> 
+  </section>
+  <div id="buttonsfixeds">
+    <button onclick="playSound('sound')" class="btn btn-primary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 8.95439L17.6352 7.82736C19.0102 7.55235 20 6.34501 20 4.94274C20 3.08637 18.3017 1.69406 16.4813 2.05813L12.4117 2.87206C11.0094 3.15252 10 4.38376 10 5.8138V13.8895C9.41165 13.5492 8.72857 13.3544 8 13.3544C5.79086 13.3544 4 15.1453 4 17.3544C4 19.5635 5.79086 21.3544 8 21.3544C10.2091 21.3544 12 19.5635 12 17.3544V8.95439ZM16.8736 4.01929L12.8039 4.83322C12.3365 4.92671 12 5.33712 12 5.8138V6.91479L17.2429 5.8662C17.6831 5.77816 18 5.39165 18 4.94274C18 4.34846 17.4563 3.90274 16.8736 4.01929ZM10 17.3544C10 16.2498 9.10457 15.3544 8 15.3544C6.89543 15.3544 6 16.2498 6 17.3544C6 18.459 6.89543 19.3544 8 19.3544C9.10457 19.3544 10 18.459 10 17.3544Z"fill="currentColor"/></svg></button><br>
+
+    <button onclick="toggleTheme()" class="btn btn-primary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H13V4.06189C12.6724 4.02104 12.3387 4 12 4C11.6613 4 11.3276 4.02104 11 4.06189V0ZM7.0943 5.68018L4.22173 2.80761L2.80752 4.22183L5.6801 7.09441C6.09071 6.56618 6.56608 6.0908 7.0943 5.68018ZM4.06189 11H0V13H4.06189C4.02104 12.6724 4 12.3387 4 12C4 11.6613 4.02104 11.3276 4.06189 11ZM5.6801 16.9056L2.80751 19.7782L4.22173 21.1924L7.0943 18.3198C6.56608 17.9092 6.09071 17.4338 5.6801 16.9056ZM11 19.9381V24H13V19.9381C12.6724 19.979 12.3387 20 12 20C11.6613 20 11.3276 19.979 11 19.9381ZM16.9056 18.3199L19.7781 21.1924L21.1923 19.7782L18.3198 16.9057C17.9092 17.4339 17.4338 17.9093 16.9056 18.3199ZM19.9381 13H24V11H19.9381C19.979 11.3276 20 11.6613 20 12C20 12.3387 19.979 12.6724 19.9381 13ZM18.3198 7.0943L21.1923 4.22183L19.7781 2.80762L16.9056 5.6801C17.4338 6.09071 17.9092 6.56608 18.3198 7.0943Z" fill="currentColor"/></svg></button>
+  </div>
+</body>
+</html>
